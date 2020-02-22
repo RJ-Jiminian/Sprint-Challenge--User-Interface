@@ -146,10 +146,28 @@ footer nav a {
 }
 
 
+
+
+
+.heading{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+a{
+    color:black;
+    font-weight: bold;
+}
+
 .company-info{
     width:95%;
     margin:0 auto;
     padding: 10px 12px 35px;
+    border-bottom: dashed 1px;
 }
 
 .company-info p{
@@ -164,4 +182,52 @@ footer nav a {
 .body{
     margin:32px 0
 }
+
+.body .row-1{
+    margin: 0 0 60px;
+}
+
+.row-1{
+    display:flex;
+}
+
+.img{
+    display:flex;
+    flex-flow: column;
+    margin:0 16px;
+    border-bottom: dashed 1px;
+    margin-top: 50px;
+}
+
+.img h2{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+h2{
+    font-weight: bold;
+}
+.row-2{
+    display:flex;
+}
+
+.img button{
+    Margin:15px 0;
+    padding:8px 16px;
+    width:120px;
+    align-self: flex-start;
+    border: black 2px solid;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 10px;
+    
+    
+}
+
+.bottom{
+    width: 90%;
+    margin: 0 auto 48px;
+    padding-top:30px;
+}
+
 
