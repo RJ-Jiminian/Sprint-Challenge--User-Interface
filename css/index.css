@@ -144,3 +144,24 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+.company-info{
+    width:95%;
+    margin:0 auto;
+    padding: 10px 12px 35px;
+}
+
+.company-info p{
+    font-weight: 400;
+
+}
+
+.company-info h2{  
+    font-weight: bold;
+}
+
+.body{
+    margin:32px 0
+}
+
